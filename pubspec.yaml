@@ -1,0 +1,27 @@
+name: app_first
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^4.0.0
+  latlong2: 0.8.2
+  google_fonts: 
+  cupertino_icons: ^1.0.2
+  location: ^5.0.0  # Para obtener la ubicación en tiempo real
+  geolocator: ^9.0.2  # Otra opción para obtener ubicación
+  # Paquete para realizar búsquedas en OpenStreetMap
+  osm_nominatim: ^2.0.1 #
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
